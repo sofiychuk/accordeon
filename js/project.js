@@ -5,6 +5,6 @@ window.onload = function () {
     function f_acc() {
         $('.accordeon .acc-body').not($(this).next()).slideUp(250);
 
-        $(this).next().slideToggle(250);
+        $(this).next().slideToggle(550);
     }
 }
