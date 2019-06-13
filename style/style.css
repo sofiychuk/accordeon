@@ -1,0 +1,101 @@
+@font-face {
+
+    font-family: 'MyWebFont';
+
+    src: url('../font/JF-Flat-regular.eot');
+
+    src: url('../font/JF-Flat-regular.eot?iefix') format('eot'),
+
+        url('../font/JF-Flat-regular.ttf') format('ttf'),
+
+        url('../font/JF-Flat-regular.woff') format('woff');
+
+    font-weight: 300;
+
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'MyWebFont';
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.611;
+}
+
+.main div {
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding-top: 50px;
+    background-color: #f6704b;
+    min-height: 1000px;
+    font-size: 0;
+    min-height: 100vh;
+}
+
+.accordeon {
+    width: 380px;
+}
+
+.acc-head {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.acc-head__img,
+.acc-head__title {
+    float: left;
+}
+
+.acc-head--red,
+.acc-body--red {
+    background-color: #620808;
+    color: rgb(255, 233, 193);
+}
+
+.acc-head--pink,
+.acc-body--pink {
+    background-color: #a53f3f;
+    color: rgb(244, 206, 116);
+}
+
+.acc-head--yellow,
+.acc-body--yellow {
+    background-color: #f4ce74;
+    color: rgb(98, 8, 8);
+}
+
+.acc-head--white,
+.acc-body--white {
+    background-color: #ffe9c1;
+    color: rgb(165, 63, 63);
+}
+
+.acc-head--orange,
+.acc-body--orange {
+    background-color: #d5441c;
+    color: rgb(255, 233, 193);
+}
+
+.acc-head__img {
+    padding: 25px 50px 25px 20px;
+}
+
+.acc-head__title {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.acc-body {
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+}
